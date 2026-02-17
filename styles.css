@@ -1,17 +1,17 @@
 p{
     text-align: center;
-    color: red;
+    color: black;
 }
 body{
     background: purple;
     font-family: Arial, Helvetica, sans-serif;
 }
 #header{
-    color: green;
+    color: black;
 }
 .about{
     text-align: center;
-    color: blue;
+    color: black;
 }
 .projects
 {
@@ -21,7 +21,7 @@ background: #00b3d1;
     text-align: left;
 }
 .green{
-    color: green;
+    color: black;
 }
 .attention
 {
