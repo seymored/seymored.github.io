@@ -31,3 +31,16 @@ body{
 {
     font-weight: bold;
 }
+
+.projects img{
+    height: 300px;
+    width: auto;
+    max-width: 100;
+    border: 5px solid rgb(160, 10, 125);
+    display: block;
+    margin: auto;
+}
+
+.projects a{
+    display: block;
+}
