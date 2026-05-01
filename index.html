@@ -1,55 +1,104 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>CSCE 190: Cameron Seymore</title>
-    <link rel = "stylesheet" href = "styles.css">
-  </head>
-  <body>
-    <h1 id = "header">Cameron Seymore</h1>
-    <div class="about">
-      <h2>About me:</h2>
-      <p>Hello, my name is Cameron Seymore. I am a computer science major at the Univeristy of South Carolina and am in my freshman year.
-         My goal isn't clear, but I want to work in software design</p>
-    </div>
-    <div class="skills left green attention">
-      <h2>Skills:</h2>
-      <p>No skills available</p>
-      <ul>
-        <li>Skill 1</li>
-        <li>Skill 2</li>
-      </ul>
-    </div>
-    <div class="projects">
-      <h2>Projects:</h2>
-        <section class = "project">
-          <a href="files/CSCE 190 Group Project.pdf"><h3>Problem Statement</h3></a>
-          <a href="files/CSCE 190 Group Project.pdf"><img src="images/problem statement.png"></a>
-          <p>AI trained on non-representative population data can have systematic biases that lead to unfair 
-        and inequitable outcomes across underrepresented groups</p>
-        <a href="files/sketches.pdf"><h3>Sketches</h3></a>
-          <a href="files/sketches.pdf"><img src="images/sketch.png"></a>
-          <p>AI trained on non-representative population data can have systematic biases that lead to unfair 
-        and inequitable outcomes across underrepresented groups</p>
-        <a href="files/canvaPDF.pdf"><h3>Affinity Diagram</h3></a>
-          <a href="files/canvaPDF.pdf"><img src="images/canvaPNG.png"></a>
-          <p>AI trained on non-representative population data can have systematic biases that lead to unfair 
-        and inequitable outcomes across underrepresented groups</p>
-        <a href="files/personas.pdf"><h3>Persona</h3></a>
-          <a href="files/personas.pdf"><img src="images/persona.png"></a>
-          <p>AI trained on non-representative population data can have systematic biases that lead to unfair 
-        and inequitable outcomes across underrepresented groups</p>
-        <a href="files/storyboards.pdf"><h3>Storyboard</h3></a>
-          <a href="files/storyboards.pdf"><img src="images/storyboard.png"></a>
-          <p>AI trained on non-representative population data can have systematic biases that lead to unfair 
-        and inequitable outcomes across underrepresented groups</p>
-        <a href="files/prototype.mp4"><h3>Prototype</h3></a>
-<a href="files/prototype.mp4"><img src="images/prototypePic.png"></a>
-<p>A video illustrating an implementation of the ideas</p>
-    </div>
-    <div class="contact">
-      <h2>Contact:</h2><p>seymored@email.sc.edu</p>
-    </div>
-    <!--This is a comment-->
-  </body>
-</html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Template 3</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <aside>
+    <h1>[Your Name]</h1>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Highlighted Projects</a>
+    <a href="#contact">Contact me!</a>
+  </aside>
+
+  <main>
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <img src="files/profile.png" alt="Profile Picture" class="about-img">
+      <p>Hello! Welcome to my personal portfolio. My name is Cameron Seymore, a freshman student at the University of South Carolina. I love
+        learning and finding new ways to innovate technology. My personal mission is to work in software design.</p>
+      <div style="clear: both;"></div>
+      <br>
+      <a href="files/resume.pdf" target="_blank" style="color: #3498db; font-weight: bold; text-decoration: none;">Check
+        out my resume for more information!</a>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <p><strong>Coding Proficiencies:</strong> Skill 1, Skill 2, Skill 3, Skill 4</p>
+      <p><strong>Additional Skills:</strong> Skill 5, Skill 6, Skill 7</p>
+    </section>
+
+    <section id="projects">
+      <h2 style="margin-left: 1rem;">Highlighted Projects</h2>
+      <div class="projects-container">
+
+        <div class="project-box card" style="margin-bottom: 0;">
+          <a href="files/CSCE 190 Group Project.pdf"><img src="images/problem statement.png" alt="Project 1"></a>
+          <div class="project-text">
+            <h3><a href="files/CSCE 190 Group Project.pdf">[Problem Statement]</a></h3>
+            <p>Description of the problem</p>
+          </div>
+        </div>
+
+        <div class="project-box card" style="margin-bottom: 0;">
+          <a href="files/sketches.pdf"><img src="images/sketch.png" alt="Project 2"></a>
+          <div class="project-text">
+            <h3><a href="files/sketches.pdf">[Sketches]</a></h3>
+            <p>Sketches of the app</p>
+          </div>
+        </div>
+
+        <div class="project-box card" style="margin-bottom: 0;">
+          <a href="files/canvaPDF.pdf"><img src="images/canvaPNG.png" alt="Project 2"></a>
+          <div class="project-text">
+            <h3><a href="files/canvaPDF.pdf">[Affinity Diagram]</a></h3>
+            <p>Things taken into account</p>
+          </div>
+        </div>
+
+        <div class="project-box card" style="margin-bottom: 0;">
+          <a href="files/personas.pdf"><img src="images/persona.png" alt="Project 2"></a>
+          <div class="project-text">
+            <h3><a href="files/personas.pdf">[Persona]</a></h3>
+            <p>Users of the app</p>
+          </div>
+        </div>
+
+        <div class="project-box card" style="margin-bottom: 0;">
+          <a href="files/prototype.mp4"><img src="images/prototypePic.png" alt="Project 2"></a>
+          <div class="project-text">
+            <h3><a href="files/prototype.mp4">[Prototype]</a></h3>
+            <p>A video illustrating an implementation of the ideas</p>
+          </div>
+        </div>
+
+
+
+        
+
+      </div>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact me!</h2>
+      <ul style="list-style: none; padding: 0; line-height: 2;">
+        <li><a href="https://linkedin.com" style="color: #1c2833; text-decoration: none;"><strong>LinkedIn:</strong>
+            seymored</a></li>
+        <li><a href="https://github.com" style="color: #1c2833; text-decoration: none;"><strong>Github:</strong> seymored</a></li>
+        <li><a href="mailto:email@email.com" style="color: #1c2833; text-decoration: none;"><strong>Email:</strong>
+            seymored@gmail.sc.edu</a></li>
+      </ul>
+    </section>
+  </main>
+
+</body>
+
+</html>
